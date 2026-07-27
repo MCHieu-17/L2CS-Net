@@ -67,7 +67,7 @@ class L2CS(nn.Module):
         # gaze
         pre_yaw_gaze =  self.fc_yaw_gaze(x)
         pre_pitch_gaze = self.fc_pitch_gaze(x)
-        return pre_yaw_gaze, pre_pitch_gaze
+        return pre_pitch_gaze, pre_yaw_gaze
 
 
 
